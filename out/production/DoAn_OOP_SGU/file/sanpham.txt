@@ -1,0 +1,18 @@
+Tai nghe JBR, AK1, JBR, Trung Quốc, 300000.0, 20, Tai nghe, 6
+Keychron k3, KR, Xiaomi, Trung Quốc, 3200000.0, 5, Bàn phím, 24
+Dell, DE, Dell, Hàn Quốc, 2.25E7, 10, Laptop, 12
+Asus TUF gaming FX516PM-HN002T/i7-11370H, 90NR05X1-M00480, Asus, Trung Quốc, 3.1799E7, 10, Laptop, 24
+Dell G Gaming 5500 i7 10750H, 70252800, Dell, Trung Quốc, 3.7999E7, 10, Laptop, 12
+Lenovo Thinpad X1 Nano i5 1130G7, 20UN007HVN, Lenovo, Trung Quốc, 4.49991E7, 5, Laptop, 36
+Laptop Apple MacBook Air M1 2020 8GB/512GB, MBM17520, Apple, Mỹ, 2.75E7, 10, Laptop, 12
+Bàn phím Bluetooth Logitech K380, 00295416, Logitech, Trung Quốc, 790000.0, 20, Bàn phím, 6
+Bàn phím không dây Magic Keyboard with Numeric Keypad Space Grey, 00686705, Asus, Đài Loan, 4299000.0, 10, Bàn phím, 12
+HP Envy x360 13 ay0069AU R7 4700U/171N3PA, 171N3PA, HP, Trung Quốc, 2.7199E7, 12, Laptop, 12
+Acer Triton Gaming PT315-53-71DJ/i7-11800H, NH.QDSSV.001, Acer, Trung Quốc, 5.0999E7, 5, laptop, 12
+Chuột không dây quang Microsoft 1850, 00570627, Microsoft, Mỹ, 369000.0, 10, Chuột, 12
+Chuột Game không dây Logitech G304, 00718900, Logitech, Trung Quốc, 800000.0, 10, Chuột, 12
+Tai nghe Bluetooth JBL T115TWSREDAS, 00780743, JBL, Hàn Quốc, 1490000.0, 10, Tai nghe, 24
+Tai nghe dây nhét tai có mic JBL QUANTUM50BLKAS - Màu trắng, 00780742, Quantum, Mỹ, 890000.0, 10, Tai nghe, 12
+iPad Mini 8.3 2021 Wi-Fi 5G 64GB, 00773230, Apple, Mỹ, 1.9999E7, 10, iPad, 12
+Macbook Pro M1 8/256GB, 0908ABC, Apple, Mỹ, 3.0E7, 4, Laptop, 12
+Macbook Air M1, MB1, Apple, Mỹ, 25000000, 10, Laptop, 12
