@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/54f0cb7e4a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Laptop</title>
+</head>
+<body>
+    
+    <header>
+        <div class="logo">
+          <h2>Sturday Night </h2>
+        </div>
+        <div class="menu">
+            <li><a href="index.html">Trang chủ</a></li>
+            <li><a href="">Sản phẩm</a>
+                <ul class="sub-menu">
+                    <li><a href="">Laptop</a>
+                        <ul>
+            
+                            <li><a href="http://127.0.0.1:5500/layout/cartegory.html">Asus </a></li>
+                            <li><a href="">Macx </a></li>
+                            <li><a href="">lenova </a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Điện thoại</a>
+                        <ul>
+                            <li><a href="">SamSung</a></li>
+                            <li><a href="">Iphone </a></li>
+                            <li><a href="">Oppo </a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="http://127.0.0.1:5500/layout/contact.html">Liên hệ</a></li>
+            <li><a href="http://127.0.0.1:5500/layout/intro.html">Giới thiệu</a></li>
+        </div>
+        <div class="others">
+            <li><input placeholder="Tìm kiếm" type="text"><i class="fas fa-search"></i></li>
+              <li><a class="fas fa-shopping-bag" href=""></a></li>
+               <li><a class="fas fa-user" href="image/login.html"></a></li>
+        </div>
+        
+    </header>
+
+    
+    <section class="cartegory">
+        <div class="container">
+            <div class="cartegory-top row">
+                <p>Trang chủ</p> <span>&#10230;</span><p>Sản phẩm</p> <span>&#10230;</span> <p>Laptop</p><span>&#10230;</span><p>Asus</p>
+            </div>
+        </div>
+                <div class="cartegory-right row">
+                    <div class="cartegory-right-top-item">
+                        <p>Danh mục sản phẩm</p>
+                    </div>
+                    <div class="cartegory-right-top-item">
+                        <button><span>Bộ Lọc</span><i class="fas fa-sort-down"></i></button>
+                    </div>
+                    <div class="cartegory-right-top-item">
+                        <select name="" id="">
+                            <option value="">Sắp xếp</option>
+                            <option value="">Giá cao đến thấp</option>
+                            <option value="">Giá thấp đếm cao</option>
+                        </select>
+                    </div>
+                    <div class="cartegory-right-content row">
+                    <div class="cartegory-right-content-item">
+                        <img src="image/laptop1.png" alt="">
+                        <h1>Laptop ASUS Vivobook S533EA</h1>
+                        <p>18.990.000<sup>đ</sup></p>
+                    </div>
+                    <div class="cartegory-right-content-item">
+                        <img src="image/laptop2.png" alt="">
+                        <h1>Laptop ASUS VivoBook R564JA-UH31T </h1>
+                        <p>11.990.000<sup>đ</sup></p>
+                    </div>
+                    <div class="cartegory-right-content-item">
+                        <img src="image/laptop3.png" alt="">
+                        <h1>Laptop ASUS Vivobook X515EA-BQ1006T</h1>
+                        <p>13.590.000<sup>đ</sup></p>
+                    </div>
+                   
+                    <div class="cartegory-right-content-item">
+                        <img src="image/laptop4.png" alt="">
+                        <h1>Laptop ASUS ZenBook Duo 14 UX482EA-KA268T</h1>
+                        <p>39.990.000<sup>đ</sup></p>
+                    </div>
+                    
+                        <div class="cartegory-right-content-item">
+                            <img src="image/laptop5.png" alt="">
+                            <h1>Laptop ASUS Vivobook R565EA-UH31</h1>
+                            <p>12.490.000<sup>đ</sup></p>
+                        </div>
+                        
+                    <div class="cartegory-right-content-item">
+                        <img src="image/laptop6.png" alt="">
+                        <h1>Laptop ASUS E210MA-GJ353T</h1>
+                        <p>7.790.000<sup>đ</sup></p>
+                    </div>
+                    <div class="cartegory-right-content-item">
+                        <img src="image/laptop7.png" alt="">
+                        <h1>Laptop ASUS Gaming FX506LH-HN002T</h1>
+                        <p>20.690.000<sup>đ</sup></p>
+                    </div>
+                    <div class="cartegory-right-content-item">
+                        <img src="image/laptop8.png" alt="">
+                        <h1>Laptop ASUS VivoBook D515DA-EJ845T</h1>
+                        <p>12.290.000<sup>đ</sup></p>
+                    </div>
+                </div>
+
+                <div class="cartegory-right-bottom row">
+                    <div class="cartegory-right-bottom-items">
+                        <p>Hiển thị 2 <span>|</span> 4 sản phẩm</p>
+                    </div>
+                    <div class="cartegory-right-bottom-items">
+                        <p><span>&#171;</span>1 2 3 4 5<span>&#187;</span>Trang cuối</p>
+                    </div>
+                </div>
+             </div>
+                
+
+        
+        
+    </section>
+    </body>
+    <script>
+        const imgPosition = document.querySelectorAll(".aspect-ratio-169 img")
+        const imgContainer = document.querySelector(".aspect-ratio-169")
+        const dotItem = document.querySelectorAll('.dot')
+        let imgNuber = imgPosition.length
+        let index = 0
+        //console.log(imgPosition)
+        imgPosition.forEach(function(image,index){
+            image.style.left = index*100+ "%"
+            dotItem[index].addEventListener("click",function(){
+            Slider(index)    
+            })
+        })
+        function imgSlide() {
+            index ++;
+            console.log(index)
+            if(index>=imgNuber) {index=0}
+            Slider(index)
+        
+        
+        }
+        function Slider(index) {
+            imgContainer.style.left = "-" +index*100+ "%"
+            const dotActive = document.querySelector('.active')
+            dotActive.classList.remove('active')
+            dotItem[index].classList.add("active")
+        }
+        setInterval(imgSlide,5000)
+    </script>
+</html>
